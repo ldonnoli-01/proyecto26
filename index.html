@@ -4,8 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Proyecto</title>
-    
-    <!-- agregar fonts --> 
+    <!-- <link rel="preconnect" href="https://fonts.googleapis.com"> -->
+    <!-- <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet"href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
     <link rel="stylesheet" href="css/style.css">
 </head>
 
@@ -13,11 +15,14 @@
 
 <!-- Encabezado -->
 <header>
+
     <div class="contenedor encabezado">
         <div class="logo">LOGOTIPO</div>
-        <div><a href="#"><i class="fa-solid "></i> Ingresar</a></div>
-        <div><a href="#"><i class="fa-solid fa-cart-shopping"></i> Carrito</a></div>
-        <br>
+        <div><a href="#"><i class="fa-sharp fa-solid "></i> Ingresar</a></div>
+        <div><a href="#"><i class="fa-sharp fa-solid fa-cart-shopping"></i> Carrito</a></div>
+    </div>
+
+    <div>
         <nav>
         <ul class="contenedor menu">
         <li><a href="#">Excursiones</a></li>
@@ -32,17 +37,101 @@
 
 <!-- Cuerpo principal -->
 <main>
-    <div class="grid-container">
-        <div class="hero">Promo</div>
-        <div class="menu">Menú</div>
-        <div class="main">Contenido Principal</div>
-        <div class="footer">Pie de página</div>
+
+    <!--Banner con promos-->
+    <section class="hero">
+        <h1>OFERTA DE LA SEMANA</h1>
+        <p>Crucero <span>Islas Tropicales</span> para 2 personas</p>
+        <a href="#" class="boton">Consultar PROMO</a>
+    </section>
+
+    <div class="grid-main">
+        
+        <div class="izquierda">
+            <h3>Diseñe su propio viaje</h3>
+            <p>Origen</p>
+            <P>Destino</P>
+            <p>Pasajeros</p>
+            <p>Cuéntenos que quisera hacer</p>
+        <a href="#" class="boton">Enviar</a>            
+        </div>
+
+        <div class="cuerpo">
+            
+            <!-- Card 1 -->
+            <article class="card">
+                <img src="https://placehold.co/400x300/2F8F83/FFFFFF?text=seismiles" alt="Descripción de la imagen">
+                <div class="card-info">
+                    <span class="categoria">Travesía</span>
+                    <h3>Ruta de los seismiles</h3>
+                    <p>Recorrido en 4x4 con guía</p>
+                    <span class="precio">$150.000</span><br>
+                    <button><i class="fa-sharp fa-solid fa-cart-plus"></i> Agregar al carrito</button>
+                </div>
+            </article>
+
+            <!-- Card 2 -->
+            <article class="card">
+                <img src="https://placehold.co/400x300/2F8F83/FFFFFF?text=las manos" alt="Descripción de la imagen">
+                <div class="card-info">
+                    <span class="categoria">Travesía</span>
+                    <h3>Cueva de las manos</h3>
+                    <p>Recorrido en 4x4 con guía</p>
+                    <span class="precio">$250.000</span><br>
+                    <button><i class="fa-sharp fa-solid fa-cart-plus"></i> Agregar al carrito</button>
+                </div>
+            </article>
+
+            <!-- Card 3 -->
+            <article class="card">
+                <img src="https://placehold.co/400x300/2F8F83/FFFFFF?text=Walking tour" alt="Descripción de la imagen">
+                <div class="card-info">
+                    <span class="categoria">Walking tour</span>
+                    <h3>Buenos Aires secreta</h3>
+                    <p>Recorrido pedestre guiado</p>
+                    <span class="precio">$40.000</span><br>
+                    <button><i class="fa-sharp fa-solid fa-cart-plus"></i> Agregar al carrito</button>
+                </div>
+            </article>
+
+
+
+
+        </div>
     </div>
 
 </main>
 
 <!-- Pie de página -->
 <footer>
+
+  <div class="grid-footer">
+
+    <!-- Columna 1: usuarios -->
+    <div class="columna">
+        <P>Mi Cuenta</P>
+        <p>Contacto</p>
+    </div>
+
+    <!-- Columna 2: empresa -->
+    <div class="columna">
+      <p>Quienes somos</p>
+      <P>Preguntas frecuentes</P>
+    </div>
+
+    <!-- Columna 3: redes sociales con iconos de Font Awesome -->
+    <div class="columna">
+      <h4>Seguinos</h4>
+      <p>@bienalsur</p>
+      <div class="redes">
+        <a href="#" title="Facebook"><i class="fa-sharp fa-brands fa-facebook-f"></i></a>
+        <a href="#" title="Instagram"><i class="fa-sharp fa-brands fa-instagram"></i></a>
+        <a href="#" title="X"><i class="fa-sharp fa-brands fa-x-twitter"></i></a>
+        <a href="#" title="YouTube"><i class="fa-sharp fa-brands fa-youtube"></i></a>
+        <a href="#" title="LinkedIn"><i class="fa-sharp fa-brands fa-linkedin-in"></i></a>
+        <a href="#" title="WhatsApp"><i class="fa-sharp fa-brands fa-whatsapp"></i></a>
+      </div>
+    </div>
 
 </footer>
 
