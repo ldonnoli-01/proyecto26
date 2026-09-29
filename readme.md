@@ -9,7 +9,7 @@ En función de los Requisitos Técnicos de la Pre-Entrega enunciados en la clase
 ● Archivo README.md con propósito del sitio.					*hecho
 2. Formulario de Contacto:
 ● Formulario con nombre, email y mensaje.					*hecho
-● Envío a través de Formspree.							*
+● Envío a través de Formspree.							*hecho
 3. Estilos con CSS:
 ● Archivo styles.css externo.							*hecho
 ● Estilos para header, footer y menú.						*hecho-
@@ -27,8 +27,8 @@ En función de los Requisitos Técnicos de la Pre-Entrega enunciados en la clase
 ● URL funcional del sitio web.							*
 
 Formato de entrega:
-Repositorio de GitHub
+● Repositorio de GitHub
 Crear un repositorio público que contenga todos los archivos del proyecto. 	*hecho
-Enlace de entrega
+● Enlace de entrega
 Compartir el link del repositorio y del sitio publicado en GitHub Pages en
 el apartado correspondiente del Campus Virtual.					*
