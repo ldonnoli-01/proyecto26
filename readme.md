@@ -12,23 +12,23 @@ En función de los Requisitos Técnicos de la Pre-Entrega enunciados en la clase
 ● Envío a través de Formspree.							*hecho
 3. Estilos con CSS:
 ● Archivo styles.css externo.							*hecho
-● Estilos para header, footer y menú.						*hecho-
+● Estilos para header, footer y menú.						*hecho
 ● Google Fonts implementadas.							*hecho
 ● Uso de background (color, imagen o degradado).				*hecho-
 4. Diseño responsivo con Flexbox y Grid:
 ● Productos en cards con Flexbox.						*hecho
-● Reseñas con Grid.								*
+● Reseñas con Grid.								*hecho
 ● Contacto adaptado con Media Queries.						* ?
 5. Contenido multimedia y navegación:
-● Inclusión de imágenes, videos o iframe.					*
+● Inclusión de imágenes, videos o iframe.					*hecho
 ● Menú de navegación con lista desordenada (Inicio, Productos, Contacto).	*hecho
 6. Subida del proyecto:
-● Hosting gratuito (GitHub Pages o Netlify).					*
-● URL funcional del sitio web.							*
+● Hosting gratuito (GitHub Pages o Netlify).					*hecho
+● URL funcional del sitio web.							*hecho
 
 Formato de entrega:
 ● Repositorio de GitHub
 Crear un repositorio público que contenga todos los archivos del proyecto. 	*hecho
 ● Enlace de entrega
 Compartir el link del repositorio y del sitio publicado en GitHub Pages en
-el apartado correspondiente del Campus Virtual.					*
+el apartado correspondiente del Campus Virtual.					*hecho
