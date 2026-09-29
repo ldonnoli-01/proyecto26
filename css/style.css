@@ -12,18 +12,6 @@ body {
     font-family: "Roboto", sans-serif;
 }
 
-
-
-
-
-
-  /* Clase reutilizable: centra el contenido y le pone un ancho maximo */
-.contenedor {
-    max-width: 1500px;
-    margin: 0 auto;          /* 0 arriba/abajo, auto a los costados = centrado */
-    padding: 20px 20px;
-}
-
 .boton {
     display: inline-block;
     margin-top: 20px;
@@ -114,7 +102,7 @@ footer {
 
 .grid-footer {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr; /*c 3 columnas */
+    grid-template-columns: 1fr 1fr 1fr; /* 3 columnas */
     grid-template-rows: auto;
     gap: 30px;
 }
@@ -136,13 +124,13 @@ footer {
   /* Cada icono va dentro de un circulo.
      Usamos flex para centrarlo adentro. */
   .redes a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width: 40px;
     height: 40px;
     border-radius: 50%;
     background: #333;
-    display: flex;
-    justify-content: center;
-    align-items: center;
     font-size: 18px;
   }
 
