@@ -17,9 +17,9 @@
 <header>
 
     <div class="contenedor encabezado">
-        <div class="logo">LOGOTIPO</div>
-        <div><a href="#"><i class="fa-sharp fa-solid "></i> Ingresar</a></div>
-        <div><a href="#"><i class="fa-sharp fa-solid fa-cart-shopping"></i> Carrito</a></div>
+        <div class="logo">LOGOTIPO</div><br>
+        <div><a href="#"><i class="fa-solid fa-circle-user"></i> Iniciar sesión</a></div>
+        
     </div>
 
     <div>
@@ -30,6 +30,7 @@
         <li><a href="#">Transfers</a></li>
         <li><a href="#">Alojamiento</a></li>
         <li><a href="#">Alq. vehículos</a></li>
+        <li><a href="#"><i class="fa-sharp fa-solid fa-cart-shopping"></i> Carrito</a></li>
         </ul>
         </nav>
     </div>
@@ -49,11 +50,19 @@
         
         <div class="izquierda">
             <h3>Diseñe su propio viaje</h3>
-            <p>Origen</p>
-            <P>Destino</P>
-            <p>Pasajeros</p>
-            <p>Cuéntenos que quisera hacer</p>
-        <a href="#" class="boton">Enviar</a>            
+            <form action="https://formspree.io/f/xkjgkrkr" method="POST">
+                <!-- Campo oculto para redirección -->
+                <input type="hidden" name="_redirect" value="https://tusitio.com/gracias.html">
+                <p>Origen</p>
+                <input type="text" name="origen" required><br>
+                <P>Destino</P>
+                <input type="text" name="destino" required><br>
+                <p>Dirección de correo</p>
+                <input type="email" name="email" required><br>
+                <p>Cuéntenos que quisera hacer</p>
+                <textarea name="mensaje" rows="6" cols="30"></textarea>
+                <button type="submit" class="boton">Enviar</button>
+            </form>
         </div>
 
         <div class="cuerpo">
@@ -66,7 +75,7 @@
                     <h3>Ruta de los seismiles</h3>
                     <p>Recorrido en 4x4 con guía</p>
                     <span class="precio">$150.000</span><br>
-                    <button><i class="fa-sharp fa-solid fa-cart-plus"></i> Agregar al carrito</button>
+                    <button class="boton"><i class="fa-sharp fa-solid fa-cart-plus"></i> Agregar al carrito</button>
                 </div>
             </article>
 
@@ -78,19 +87,19 @@
                     <h3>Cueva de las manos</h3>
                     <p>Recorrido en 4x4 con guía</p>
                     <span class="precio">$250.000</span><br>
-                    <button><i class="fa-sharp fa-solid fa-cart-plus"></i> Agregar al carrito</button>
+                    <button class="boton"><i class="fa-sharp fa-solid fa-cart-plus"></i> Agregar al carrito</button>
                 </div>
             </article>
 
             <!-- Card 3 -->
             <article class="card">
-                <img src="https://placehold.co/400x300/2F8F83/FFFFFF?text=Walking tour" alt="Descripción de la imagen">
+                <img src="https://placehold.co/400x300/2F8F83/FFFFFF?text=secreta" alt="Descripción de la imagen">
                 <div class="card-info">
                     <span class="categoria">Walking tour</span>
                     <h3>Buenos Aires secreta</h3>
                     <p>Recorrido pedestre guiado</p>
                     <span class="precio">$40.000</span><br>
-                    <button><i class="fa-sharp fa-solid fa-cart-plus"></i> Agregar al carrito</button>
+                    <button class="boton"><i class="fa-sharp fa-solid fa-cart-plus"></i> Agregar al carrito</button>
                 </div>
             </article>
 
@@ -134,12 +143,6 @@
     </div>
 
 </footer>
-
-
-
-
-
-
 
 </body>
 </html>

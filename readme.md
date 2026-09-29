@@ -8,7 +8,7 @@ En función de los Requisitos Técnicos de la Pre-Entrega enunciados en la clase
 ● Uso de etiquetas semánticas: header, nav, main, section, footer.		*hecho
 ● Archivo README.md con propósito del sitio.					*hecho
 2. Formulario de Contacto:
-● Formulario con nombre, email y mensaje.					*
+● Formulario con nombre, email y mensaje.					*hecho
 ● Envío a través de Formspree.							*
 3. Estilos con CSS:
 ● Archivo styles.css externo.							*hecho
