@@ -12,6 +12,11 @@ body {
     font-family: "Roboto", sans-serif;
 }
 
+
+
+
+
+
   /* Clase reutilizable: centra el contenido y le pone un ancho maximo */
 .contenedor {
     max-width: 1500px;
@@ -40,10 +45,9 @@ header {
 }
 
 .encabezado {
-    display: flex;
-    justify-content: space-between;  /* para 3 elementos: izq-centro-der */
-    align-items: center;             /* centrados a la misma altura */
-    gap: 10px;
+    display: grid;
+    grid-template-columns: auto 1fr;
+    align-items: center;          /* centrados a la misma altura */
 }
 
 .menu {
@@ -61,7 +65,7 @@ header {
     padding: 60px 20px;
 }
 
-.hero span{
+.hero span {
     font-size: 1.2em;
     color: blue;
 }
@@ -91,14 +95,15 @@ header {
 }
 
 .card {
+    display: flex;
+    flex-direction: column;   /* imagen arriba, texto abajo (en columna) */
     flex: 0 1 320px;
     text-align: center;
     background: white;
     border: 1px solid #E0E0E0;
     border-radius: 5px;
     overflow: hidden;         /* recorta la imagen a las esquinas redondeadas */
-    display: flex;
-    flex-direction: column;   /* imagen arriba, texto abajo (en columna) */
+
 }
 
 footer {
