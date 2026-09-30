@@ -1,6 +1,8 @@
 
 /* Inicialización */
+
 * { margin: 0; padding: 0; box-sizing: border-box; }
+
 body {
     font-family: Arial, Helvetica, sans-serif;
     line-height: 1.5;
@@ -35,12 +37,29 @@ header {
 
 .encabezado {
     display: grid;
-    grid-template-columns: auto 1fr;
+    grid-template-columns: 20% 1fr;
+    height: 150px;
     align-items: center;          /* centrados a la misma altura */
+}
+
+.logo1 {
+    display: flex;
+    flex: 0 1 300px;
+    margin: 20px;
+    border: 2px solid black; 
+    border-radius: 10px;
+    background-color: blue;
+    overflow: hidden; 
+}
+
+.logo1 img {
+    width: 100%;    /* Ocupa todo el ancho de la caja */
+    object-fit: contain; /* Ajusta la imagen sin deformarla (muestra toda la imagen) */
 }
 
 .menu {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-evenly;
     align-items: center;
     gap: 30px;
@@ -55,9 +74,23 @@ header {
     padding: 60px 20px;
 }
 
-.hero span {
-    font-size: 1.2em;
-    color: blue;
+.hero-image {
+  background-image: url("../img/fondo01.jpg"); /* The image used */
+  background-color: #cccccc; /* Used if the image is unavailable */
+  height: 400px; /* You must set a specified height */
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; /* Resize the background image to cover the entire container */
+  position: relative;
+}
+
+.hero-text {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
 }
 
 .grid-main {
@@ -106,6 +139,8 @@ header {
     margin: 10px auto;          /* 0 arriba/abajo, auto a los costados = centrado */
     padding: 0 20px;
 }
+
+
 
 .titulo-contacto {
     text-align: center;
