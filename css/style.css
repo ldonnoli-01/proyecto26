@@ -44,12 +44,14 @@ header {
 
 .logo1 {
     display: flex;
-    flex: 0 1 300px;
+    flex: 0 1 200px;
     margin: 20px;
+    max-height: 116px;
+    max-width: 216px;
     border: 2px solid black; 
     border-radius: 10px;
+    overflow: hidden;
     background-color: blue;
-    overflow: hidden; 
 }
 
 .logo1 img {
@@ -62,17 +64,11 @@ header {
     flex-wrap: wrap;
     justify-content: space-evenly;
     align-items: center;
-    gap: 30px;
+    gap: 20px;
     
 }
 
 /* main */
-.hero {
-    background: #1F6F66;
-    color: white;
-    text-align: center;
-    padding: 60px 20px;
-}
 
 .hero-image {
   background-image: url("../img/fondo01.jpg"); /* The image used */
@@ -130,17 +126,15 @@ header {
 }
 
 /* sección contacto */
+
 .contacto {
     display: block;
-    max-width: 1000px;
+    max-width: 2000px;
     gap: 25px;
     justify-content: center;
-
     margin: 10px auto;          /* 0 arriba/abajo, auto a los costados = centrado */
     padding: 0 20px;
 }
-
-
 
 .titulo-contacto {
     text-align: center;
@@ -150,13 +144,15 @@ header {
 
 .bloque-contacto {
     display: flex;
+    flex: 0 1 400px;          /* crece, se achica, base px */
     flex-wrap: wrap;
+    
     gap: 25px;
     align-items:stretch ;
 }
 
 .datos-contacto {
-    flex: 1 1 320px;          /* crece, se achica, base 320px */
+    max-height: 400px;
     background: white;
     border: 1px solid #E0E0E0;
     border-radius: 8px;
@@ -202,7 +198,7 @@ header {
 /* El mapa: el iframe ocupa todo el ancho de su columna */
 .mapa {
     flex: 1 1 420px;
-    min-height: 340px;
+    max-height: 400px;
     border-radius: 8px;
     overflow: hidden;         /* recorta el mapa a las esquinas redondeadas */
     border: 1px solid #E0E0E0;
@@ -214,6 +210,19 @@ header {
     min-height: 340px;
     border: 0;                /* saca el borde gris que trae el iframe */
     display: block;
+}
+
+/* imagen local */
+.image-contacto {
+    flex: 1 1 200px;
+    max-height: 400px;
+    border-radius: 8px;
+    overflow: hidden;         /* recorta el mapa a las esquinas redondeadas */
+    border: 1px solid #E0E0E0;
+}
+.image-contacto img {
+    width: 100%;    /* Ocupa todo el ancho de la caja */
+    object-fit: contain; /* Ajusta la imagen sin deformarla (muestra toda la imagen) */
 }
 
 /* footer */
