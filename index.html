@@ -9,35 +9,38 @@
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
     <link rel="stylesheet"href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
     <link rel="stylesheet" href="css/style.css">
+
 </head>
 
 <body>
-
-<!-- Encabezado -->
-<header>
-
+<header>                        <!-- Encabezado -->
     <div class="encabezado">
-        <div class="logo1" > 
-        
-        <img src="./img/miniLOGO1.jpg" alt="logo">
+        <div class="logo1" >        
+            <img src="./img/miniLOGO1.jpg" alt="logo">
         </div>
        
         <nav>
             <ul class="menu">
-            <li><a href="#">Excursiones</a></li>
-            <li><a href="#">Walking tours</a></li>
-            <li><a href="#">Transfers</a></li>
-            <li><a href="#">Alojamiento</a></li>
-            <li><a href="#">Alq. vehículos</a></li>
-            <li><a href="#"><i class="fa-sharp fa-solid fa-cart-shopping"></i> Carrito</a></li>
-            <li><a href="#"><i class="fa-solid fa-circle-user"></i> Iniciar sesión</a></li>
+                <li><a href="#">Excursiones</a></li>
+                <li><a href="#">Walking tours</a></li>
+                <li><a href="#">Transfers</a></li>
+                <li><a href="#">Alojamiento</a></li>
+                <li><a href="#">Alq. vehículos</a></li>
+                <li>
+                    <a href="./carrito.html">Carrito</a>  
+                    <i id="icono-carrito" class="fa-sharp fa-solid fa-cart-shopping"></i>
+                    <span id="contador-carrito" class="contador">0</span>
+                </li>
+                <li>
+                    <a href="#">Iniciar sesión</a>
+                    <i class="fa-solid fa-circle-user"></i>
+                </li>
             </ul>
         </nav>
     </div>
 </header>
 
-<!-- Cuerpo principal -->
-<main>
+<main>                          <!-- Cuerpo principal -->
 
     <!--Banner con promos-->
     <section class="hero-image">
@@ -49,11 +52,17 @@
     </section>
 
     <!-- Sección central -->
-    <section class="grid-main">
-        
-        <div class="izquierda">
-            <h3>Diseñe su propio viaje</h3>
-            <form action="https://formspree.io/f/xkjgkrkr" method="POST">
+    <section id="central" class="grid-main">
+        <!-- Grilla de productos utilizando JS -->
+        <div id="grilla" class="productos">
+        </div>
+    </section>
+
+        <!-- Formulario -->
+        <section class="formulario">
+            <h2><em><span>Diseñe su propio viaje</span></em></h2>
+            <h3>Nos gustaría acompañarlo en la realización de su anhelo</h3>
+            <form action="https://formspree.io/f/xkjgkrkr" method="POST"> 
                 <!-- Campo oculto para redirección -->
                 <input type="hidden" name="_redirect" value="https://tusitio.com/gracias.html">
                 <p>Origen</p>
@@ -62,73 +71,11 @@
                 <input type="text" name="destino" required><br>
                 <p>Dirección de correo</p>
                 <input type="email" name="email" required><br>
-                <p>Cuéntenos que quisera hacer</p>
-                <textarea name="mensaje" rows="6" cols="30"></textarea>
-                <button type="submit" class="boton">Enviar</button>
+                <p>Cuéntenos qué es lo que le gustaría hacer y lo cotizaremos</p>
+                <textarea name="mensaje" rows="8" cols="90"></textarea><br>
+                <button type="submit" class="boton">Cotizar</button>
             </form>
-        </div>
-
-        <div class="cuerpo">
-            
-            <!-- Card 1 -->
-            <article class="card">
-                <img src="./img/seismiles.jpg" alt="seismiles">
-                <div class="card-info">
-                    <h3>Ruta de los seismiles</h3>
-                    <p>Recorrido en 4x4 con guía</p>
-                    <span class="precio">$150.000</span><br>
-                    <button class="boton"><i class="fa-sharp fa-solid fa-cart-plus"></i> Agregar al carrito</button>
-                </div>
-            </article>
-
-            <!-- Card 2 -->
-            <article class="card">
-                <img src="./img/manos.jpg" alt="las manos">
-                <div class="card-info">
-                    <h3>Cueva de las manos</h3>
-                    <p>Recorrido en 4x4 con guía</p>
-                    <span class="precio">$250.000</span><br>
-                    <button class="boton"><i class="fa-sharp fa-solid fa-cart-plus"></i> Agregar al carrito</button>
-                </div>
-            </article>
-
-            <!-- Card 3 -->
-            <article class="card">
-                <img src="./img/querubin.jpg" alt="Descripción de la imagen">
-                <div class="card-info">
-                    <h3>Buenos Aires secreta</h3>
-                    <p>Recorrido pedestre guiado</p>
-                    <span class="precio">$40.000</span><br>
-                    <button class="boton"><i class="fa-sharp fa-solid fa-cart-plus"></i> Agregar al carrito</button>
-                </div>
-            </article>
-
-            <!-- Card 4 -->
-            <article class="card">
-                <img src="./img/prevew.jpg" alt="Descripción de la imagen">
-                <!--   <video controls poster="./img/prevew.jpg" width="400" height="260">
-                    <source src="./mmedia/mocona.mp4" type="video/mp4">
-                    Tu navegador no soporta la reproducción de video.
-                </video> -->
-                <div class="card-info">
-                    <h3>El corazón de Misiones</h3>
-                    <p>El Moconá y sus saltos</p>
-                    <span class="precio">$400.000</span><br>
-                    <button class="boton"><i class="fa-sharp fa-solid fa-cart-plus"></i> Agregar al carrito</button>
-                </div>
-            </article>
-            <!-- Card 5 -->
-            <article class="card">
-                <img src="./img/tempanos.jpg" alt="Descripción de la imagen">
-                <div class="card-info">
-                    <h3>Más allá del Perito Moreno</h3>
-                    <p>Navegando entre témpanos</p>
-                    <span class="precio">$850.000</span><br>
-                    <button class="boton"><i class="fa-sharp fa-solid fa-cart-plus"></i> Agregar al carrito</button>
-                </div>
-            </article>            
-        </div>
-    </section>
+        </section>   
 
     <!-- Sección Contacto -->
     <section class="contacto">
@@ -165,35 +112,27 @@
                  loading="lazy" 
                  referrerpolicy="strict-origin-when-cross-origin">
                 </iframe>
-
             </div>
 
             <!-- Columna de la imagen -->
-             <div class="image-contacto">
-                <img src="./img/img1.jpg" alt="moai">
-             </div>
+            <div class="image-contacto">
+                <P></P>
+            </div>
         </div>
     </section>
 </main>
 
-<!-- Pie -->
-<footer>
+<footer>                            <!-- Pie -->
 
   <div class="grid-footer">
 
     <!-- Columna 1: usuarios -->
     <div class="columna">
         <P>Mi Cuenta</P>
-        <p>Contacto</p>
+        <p>Preguntas frecuentes</p>
     </div>
-
-    <!-- Columna 2: empresa -->
-    <div class="columna">
-      <p>Quienes somos</p>
-      <P>Preguntas frecuentes</P>
-    </div>
-
-    <!-- Columna 3: redes sociales con iconos de Font Awesome -->
+    
+    <!-- Columna 2: redes sociales con iconos de Font Awesome -->
     <div class="columna">
       <h4>Seguinos</h4>
       <p>@bienalsur</p>
@@ -207,7 +146,21 @@
       </div>
     </div>
 
+    <!-- Columna 3: empresa -->
+    <div class="columna">
+      <p>Quienes somos</p>
+      <P>Términos y condiciones</P>
+    </div>
+
 </footer>
+
+<!-- SweetAlert2: librería con alertas vistosas -->
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+<!-- Datos y funciones -->
+    <script src="./js/productos.js"></script>
+    <script src="./js/carrito.js"></script>
+    <script src="./js/mostrarProductos.js"></script>
 
 </body>
 </html>

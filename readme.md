@@ -32,3 +32,6 @@ Crear un repositorio público que contenga todos los archivos del proyecto. 	*he
 ● Enlace de entrega
 Compartir el link del repositorio y del sitio publicado en GitHub Pages en
 el apartado correspondiente del Campus Virtual.					*hecho
+
+Pre-entrega: Aprobado
+
