@@ -10,7 +10,7 @@ function mostrarCarrito() {
 
   // Si el carrito esta vacio, mostramos un mensaje y salimos
   if (carrito.length === 0) {
-    lista.innerHTML = `<p class="carrito-vacio">Tu carrito está vacío. <a href="index.html">Ver productos</a></p>`;
+    lista.innerHTML = `<p class="carrito-vacio">Tu carrito está vacío. <a href="index.html#grilla">Ver productos</a></p>`;
     total.textContent = formatearPrecio(0);
     return;
   }
@@ -26,10 +26,10 @@ function mostrarCarrito() {
         <span>x ${item.cantidad}</span>
         <span class="item-precio">${formatearPrecio(item.precio * item.cantidad)}</span> 
         
-        <button onclick="quitarYMostrar(${item.id})" title="Agregar 1">
+        <button onclick="sumarYMostrar(${item.id})" title="Agregar 1">
           <i class="fa-solid fa-square-plus"></i>
         </button>
-        <button onclick="quitarYMostrar(${item.id})" title="Quitar 1">
+        <button onclick="restarYMostrar(${item.id})" title="Quitar 1">
           <i class="fa-solid fa-square-minus"></i>
         </button>
       </div>
@@ -39,28 +39,26 @@ function mostrarCarrito() {
   total.textContent = formatearPrecio(calcularTotal());
 }
 
-// Quita el producto y vuelve a dibujar la lista
-function quitarYMostrar(id) {
-  eliminarProducto(id);
-  mostrarCarrito();
-}
-
-/*
-function sumarYMostrar(id) {
+function sumarYMostrar(id) {                // incrementa +1 la cantidad de un artículo
   const carrito = traerCarrito();
   const itemEnCarrito = carrito.find(function(x) {return x.id === id;}); // busca el producto
-
-  console.log(itemEnCarrito.cantidad);
-  // const item = carrito[id];
   itemEnCarrito.cantidad++;
   guardarCarrito(carrito);
   mostrarCarrito();
 }
-  */
-// Necesito: sumarYMostrar(id) y restarYMostrar(id)
 
-// <i class="fa-solid fa-square-plus"></i>    signo +
-// <i class="fa-solid fa-square-minus"></i>   signo -
+function restarYMostrar(id) {               // decrementa -1 la cantidad de un artículo
+  const carrito = traerCarrito();
+  const itemEnCarrito = carrito.find(function(x) {return x.id === id;}); // busca el producto
+    if (itemEnCarrito.cantidad > 1) {       // si hay mas de 1, decrementa
+      itemEnCarrito.cantidad-- ;
+      guardarCarrito(carrito);
+    } else {                                // si queda 1 solo, elimina el item
+      const carritoNuevo = carrito.filter(function (x) {return x.id !== id;});
+      guardarCarrito(carritoNuevo);
+    }
+  mostrarCarrito();
+}
 
 function finalizarCompra() {
   const nombre = document.getElementById("nombre").value;
