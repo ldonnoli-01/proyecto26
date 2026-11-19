@@ -65,13 +65,17 @@
             <form action="https://formspree.io/f/xkjgkrkr" method="POST"> 
                 <!-- Campo oculto para redirección -->
                 <input type="hidden" name="_redirect" value="https://tusitio.com/gracias.html">
-                <p>Origen</p>
-                <input type="text" name="origen" required><br>
+                <p>Origen</p>                
+                <select id="origen" name="origen">
+                    <div id="desplegable1"></div>
+                </select>                
                 <P>Destino</P>
-                <input type="text" name="destino" required><br>
+                <select id="destino" name="destino">
+                    <div id="desplegable2"></div>
+                </select>
                 <p>Dirección de correo</p>
                 <input type="email" name="email" required><br>
-                <p>Cuéntenos qué es lo que le gustaría hacer y lo cotizaremos</p>
+                <p>Cuéntenos qué le gustaría hacer y lo cotizaremos</p>
                 <textarea name="mensaje" rows="8" cols="90"></textarea><br>
                 <button type="submit" class="boton">Cotizar</button>
             </form>
@@ -161,6 +165,7 @@
     <script src="./js/productos.js"></script>
     <script src="./js/carrito.js"></script>
     <script src="./js/mostrarProductos.js"></script>
+    <script src="./js/ciudades.js"></script>
 
 </body>
 </html>
