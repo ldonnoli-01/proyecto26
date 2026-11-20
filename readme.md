@@ -2,46 +2,44 @@ Proyecto Curso Front-End
 
 Objetivo primario:
 
-Implementar una p√°gina web b√°sica de tema libre, aplicando los conceptos adquiridos en el curso de Front-End. El resultado esperado es una p√°gina estructurada con HTML, CSS y JavaScript. La tem√°tica elegida es la de implementar la p√°gina web de una agencia de viajes.
+Implementar una p·gina web b·sica de tema libre, aplicando los conceptos adquiridos en el curso de Front-End. El resultado esperado es una p·gina estructurada con HTML, CSS y JavaScript. La tem·tica elegida es la de implementar la p·gina web de una agencia de viajes.
 
-Enunciaci√≥n de los contenidos aplicados em el proyecto:
+EnunciaciÛn de los contenidos aplicados em el proyecto:
 
-    ‚Ä¢ HTML sem√°ntico (header, nav, main, etc.).
-    ‚Ä¢ Formulario funcional con Formspree.
-    ‚Ä¢ Archivo README.md con resumen del proyecto.
-    ‚Ä¢ CSS externo: estilos para header, footer y navegaci√≥n.
-    ‚Ä¢ Google Fonts correctamente aplicadas.
-    ‚Ä¢ Uso de background (color, imagen o gradiente).
-    ‚Ä¢ Productos: cards con Flexbox.
-    ‚Ä¢ Rese√±as: uso de Grid.
-    ‚Ä¢ Contacto: Media Queries para responsividad.
-    ‚Ä¢ Im√°genes, videos o iframe correctamente integrados.
-    ‚Ä¢ Men√∫ de navegaci√≥n con lista desordenada e √≠tems internos.
-    ‚Ä¢ Hosting obligatorio con enlace funcional.
-    ‚Ä¢ Archivo script.js enlazado.
-    ‚Ä¢ Validaci√≥n de formularios (campos requeridos, email).
-    ‚Ä¢ Manipulaci√≥n del DOM para interacciones.
-    ‚Ä¢ Renderizado de productos en tarjetas con imagen, t√≠tulo y precio.
-    ‚Ä¢ Agregar productos desde tarjetas.
-    ‚Ä¢ Guardar carrito con localStorage o sessionStorage.
-    ‚Ä¢ Contador din√°mico de productos.
-    ‚Ä¢ Lista de productos con cantidad, precio y total.
-    ‚Ä¢ Posibilidad de editar o eliminar productos.
-    ‚Ä¢ Etiquetas alt en im√°genes.
-    ‚Ä¢ Navegaci√≥n accesible con teclado.
-    ‚Ä¢ P√°gina interactiva que permita ver productos, agregar al carrito, editarlo y simular la compra.
+    ï HTML sem·ntico (header, nav, main, etc.).
+    ï Formulario funcional con Formspree.
+    ï Archivo README.md con resumen del proyecto.
+    ï CSS externo: estilos para header, footer y navegaciÛn.
+    ï Google Fonts correctamente aplicadas.
+    ï Uso de background (color, imagen o gradiente).
+    ï Productos: cards con Flexbox.
+    ï ReseÒas: uso de Grid.
+    ï Contacto: Media Queries para responsividad.
+    ï Im·genes, videos o iframe correctamente integrados.
+    ï Men˙ de navegaciÛn con lista desordenada e Ìtems internos.
+    ï Hosting obligatorio con enlace funcional.
+    ï Archivo script.js enlazado.
+    ï ValidaciÛn de formularios (campos requeridos, email).
+    ï ManipulaciÛn del DOM para interacciones.
+    ï Renderizado de productos en tarjetas con imagen, tÌtulo y precio.
+    ï Agregar productos desde tarjetas.
+    ï Guardar carrito con localStorage o sessionStorage.
+    ï Contador din·mico de productos.
+    ï Lista de productos con cantidad, precio y total.
+    ï Posibilidad de editar o eliminar productos.
+    ï Etiquetas alt en im·genes.
+    ï NavegaciÛn accesible con teclado.
+    ï P·gina interactiva que permita ver productos, agregar al carrito, editarlo y simular la compra.
 
 Funcionalidad Esperada:
 
-    ‚Ä¢ Formulario de contacto que funcione correctamente.
-    ‚Ä¢ Dise√±o adaptable a distintos tama√±os de pantalla.
-    ‚Ä¢ Carrito persistente con localStorage/sessionStorage.
+    ï Formulario de contacto que funcione correctamente.
+    ï DiseÒo adaptable a distintos tamaÒos de pantalla.
+    ï Carrito persistente con localStorage/sessionStorage.
 
 Formato de entrega:
 
-Repositorio de GitHub
-    ‚Ä¢ Repositorio p√∫blico en GitHub conteniendo todos los archivos del proyecto.
-Hosting del Proyecto
-    ‚Ä¢ Enlace funcional en GitHub Pages.
-Entrega en el Campus Virtual
-    ‚Ä¢ Compartir los links del repositorio y del sitio publicado en el apartado correspondiente del Campus Virtual.
+    ï Repositorio de GitHub: Repositorio p˙blico en GitHub conteniendo todos los archivos del proyecto.
+    ï Hosting del Proyecto: Enlace funcional en GitHub Pages.
+    ï Entrega en el Campus Virtual: Compartir los links del repositorio y del sitio publicado en el apartado correspondiente del Campus Virtual.
+
