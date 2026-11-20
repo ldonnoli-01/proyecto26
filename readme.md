@@ -1,37 +1,46 @@
 Proyecto Curso Front-End
 Objetivo primario:
-Implementar una página web básica, aplicando los conceptos adquiridos en el curso de Front-End. El resultado esperado es una página estructurada con HTML y CSS, para organizar el contenido y aceptar futuras mejoras con JavaScript.
+Implementar una página web básica de tema libre, aplicando los conceptos adquiridos en el curso de Front-End. El resultado esperado es una página estructurada con HTML, CSS y JavaScript. La temática elegida es la de implementar la página web de una agencia de viajes.
 
-En función de los Requisitos Técnicos de la Pre-Entrega enunciados en la clase N° 8, realizo un punteo de verificación como seguimiento del progreso del proyecto. La temática elegida es la de implementar la página web de una agencia de viajes.
+Enunciación de los contenidos aplicados em el proyecto:
+● HTML semántico (header, nav, main, etc.).
+● Formulario funcional con Formspree.
+● Archivo README.md con resumen del proyecto.
+● CSS externo: estilos para header, footer y navegación.
+● Google Fonts correctamente aplicadas.
+● Uso de background (color, imagen o gradiente).
+● Productos: cards con Flexbox.
+● Reseñas: uso de Grid.
+● Contacto: Media Queries para responsividad.
+● Imágenes, videos o iframe correctamente integrados.
+● Menú de navegación con lista desordenada e ítems internos.
+● Hosting obligatorio con enlace funcional.
+● Archivo script.js enlazado.
+● Validación de formularios (campos requeridos, email).
+● Manipulación del DOM para interacciones.
+● Renderizado de productos en tarjetas con imagen, título y precio.
+● Agregar productos desde tarjetas.
+● Guardar carrito con localStorage o sessionStorage.
+● Contador dinámico de productos.
+● Lista de productos con cantidad, precio y total.
+● Posibilidad de editar o eliminar productos.
+● Etiquetas alt en imágenes.
+● Navegación accesible con teclado.
+● Página interactiva que permita ver productos, agregar al carrito, editarlo y
+simular la compra.
 
-1. Estructura Básica de HTML:
-● Uso de etiquetas semánticas: header, nav, main, section, footer.		*hecho
-● Archivo README.md con propósito del sitio.					*hecho
-2. Formulario de Contacto:
-● Formulario con nombre, email y mensaje.					*hecho
-● Envío a través de Formspree.							*hecho
-3. Estilos con CSS:
-● Archivo styles.css externo.							*hecho
-● Estilos para header, footer y menú.						*hecho
-● Google Fonts implementadas.							*hecho
-● Uso de background (color, imagen o degradado).				*hecho-
-4. Diseño responsivo con Flexbox y Grid:
-● Productos en cards con Flexbox.						*hecho
-● Reseñas con Grid.								*hecho
-● Contacto adaptado con Media Queries.						* ?
-5. Contenido multimedia y navegación:
-● Inclusión de imágenes, videos o iframe.					*hecho
-● Menú de navegación con lista desordenada (Inicio, Productos, Contacto).	*hecho
-6. Subida del proyecto:
-● Hosting gratuito (GitHub Pages o Netlify).					*hecho
-● URL funcional del sitio web.							*hecho
+Funcionalidad Esperada:
+● Formulario de contacto que funcione correctamente.
+● Diseño adaptable a distintos tamaños de pantalla.
+● Carrito persistente con localStorage/sessionStorage.
 
 Formato de entrega:
 ● Repositorio de GitHub
-Crear un repositorio público que contenga todos los archivos del proyecto. 	*hecho
-● Enlace de entrega
-Compartir el link del repositorio y del sitio publicado en GitHub Pages en
-el apartado correspondiente del Campus Virtual.					*hecho
+Repositorio público en GitHub conteniendo todos los archivos del proyecto.
+● Hosting del Proyecto
+Enlace funcional en GitHub Pages.
+● Entrega en el Campus Virtual
+Compartir los links del repositorio y del sitio publicado en el apartado 
+correspondiente del Campus Virtual.
 
-Pre-entrega: Aprobado
 
