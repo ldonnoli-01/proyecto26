@@ -1,42 +1,47 @@
 Proyecto Curso Front-End
-Objetivo primario:
-Implementar una p�gina web b�sica de tema libre, aplicando los conceptos adquiridos en el curso de Front-End. El resultado esperado es una p�gina estructurada con HTML, CSS y JavaScript. La tem�tica elegida es la de implementar la p�gina web de una agencia de viajes.
 
-Enunciaci�n de los contenidos aplicados em el proyecto:
-HTML sem�ntico (header, nav, main, etc.).
-Formulario funcional con Formspree.
-Archivo README.md con resumen del proyecto.
-CSS externo: estilos para header, footer y navegaci�n.
-Google Fonts correctamente aplicadas.
-Uso de background (color, imagen o gradiente).
-Productos: cards con Flexbox.
-Rese�as: uso de Grid.
-Contacto: Media Queries para responsividad.
-Im�genes, videos o iframe correctamente integrados.
-Men� de navegaci�n con lista desordenada e �tems internos.
-Hosting obligatorio con enlace funcional.
-Archivo script.js enlazado.
-Validaci�n de formularios (campos requeridos, email).
-Manipulaci�n del DOM para interacciones.
-Renderizado de productos en tarjetas con imagen, t�tulo y precio.
-Agregar productos desde tarjetas.
-Guardar carrito con localStorage o sessionStorage.
-Contador din�mico de productos.
-Lista de productos con cantidad, precio y total.
-Posibilidad de editar o eliminar productos.
-Etiquetas alt en im�genes.
-Navegaci�n accesible con teclado.
-P�gina interactiva que permita ver productos, agregar al carrito, editarlo y simular la compra.
+Objetivo primario:
+
+Implementar una página web básica de tema libre, aplicando los conceptos adquiridos en el curso de Front-End. El resultado esperado es una página estructurada con HTML, CSS y JavaScript. La temática elegida es la de implementar la página web de una agencia de viajes.
+
+Enunciación de los contenidos aplicados em el proyecto:
+
+    • HTML semántico (header, nav, main, etc.).
+    • Formulario funcional con Formspree.
+    • Archivo README.md con resumen del proyecto.
+    • CSS externo: estilos para header, footer y navegación.
+    • Google Fonts correctamente aplicadas.
+    • Uso de background (color, imagen o gradiente).
+    • Productos: cards con Flexbox.
+    • Reseñas: uso de Grid.
+    • Contacto: Media Queries para responsividad.
+    • Imágenes, videos o iframe correctamente integrados.
+    • Menú de navegación con lista desordenada e ítems internos.
+    • Hosting obligatorio con enlace funcional.
+    • Archivo script.js enlazado.
+    • Validación de formularios (campos requeridos, email).
+    • Manipulación del DOM para interacciones.
+    • Renderizado de productos en tarjetas con imagen, título y precio.
+    • Agregar productos desde tarjetas.
+    • Guardar carrito con localStorage o sessionStorage.
+    • Contador dinámico de productos.
+    • Lista de productos con cantidad, precio y total.
+    • Posibilidad de editar o eliminar productos.
+    • Etiquetas alt en imágenes.
+    • Navegación accesible con teclado.
+    • Página interactiva que permita ver productos, agregar al carrito, editarlo y simular la compra.
 
 Funcionalidad Esperada:
-Formulario de contacto que funcione correctamente.
-Dise�o adaptable a distintos tama�os de pantalla.
-Carrito persistente con localStorage/sessionStorage.
+
+    • Formulario de contacto que funcione correctamente.
+    • Diseño adaptable a distintos tamaños de pantalla.
+    • Carrito persistente con localStorage/sessionStorage.
 
 Formato de entrega:
-Repositorio de GitHubR
-epositorio p�blico en GitHub conteniendo todos los archivos del proyecto.
+
+Repositorio de GitHub
+    • Repositorio público en GitHub conteniendo todos los archivos del proyecto.
 Hosting del Proyecto
-Enlace funcional en GitHub Pages.
+    • Enlace funcional en GitHub Pages.
 Entrega en el Campus Virtual
-Compartir los links del repositorio y del sitio publicado en el apartado correspondiente del Campus Virtual.
+    • Compartir los links del repositorio y del sitio publicado en el apartado correspondiente del Campus Virtual.
