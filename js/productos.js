@@ -44,7 +44,7 @@ const productos = [
     nombre: "La Payunia",
     descripcion: "Un campo de volcanes",
     precio: 700000,
-    imagen: "./img/payunia.jpg",
+    imagen: "./img/payunia.png",
     alt: "payunia"
   }
 ];

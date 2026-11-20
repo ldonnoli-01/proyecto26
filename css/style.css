@@ -254,7 +254,7 @@ header {
 .image-contacto {
     display: flex;
     flex: auto;
-    background-image: url("../img/img1.JPG");
+    background-image: url("../img/img2.jpg");
     background-position: center; /* imagen centrada */
     background-repeat: no-repeat; /* no repetir */
     background-size: cover; /* redimensionar la imagen para cubrir todo el contenedor */
